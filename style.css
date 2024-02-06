@@ -1189,14 +1189,14 @@ body main #about .about-visual {
     position: static;
     width: 42vw;
     height: 750px;
-    transform: translateY(-1500px);
+    transform: translateY(-1850px);
   }
 }
 @media screen and (max-width: 420px) {
   body main #about .about-visual {
     position: absolute;
     width: 86vw;
-    height: 36vw;
+    height: 50vw;
     top: 134vw;
     left: -12px;
     -o-object-position: 0% 40%;
