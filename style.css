@@ -1098,6 +1098,7 @@ body main #about .about-container .message .speaker .icon {
 body main #about .about-container .message .speaker .icon img {
   width: 100px;
   height: 100px;
+  border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
 }

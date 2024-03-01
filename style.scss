@@ -920,6 +920,9 @@ body{
                             &:nth-of-type(2){
                                 background: #03a9f4;
                             }
+                            &:nth-of-type(3){
+                                background: #fe0062;
+                            }
                         }
                         @include mn{
                             flex-direction: column;
@@ -943,7 +946,6 @@ body{
                         margin: 30px;
                         .contact-sns{
                             padding-top: 60px;
-                            width: 500px;
                             margin: 0 auto;
                             gap: 100px;
                             a{
