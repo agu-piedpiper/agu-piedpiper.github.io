@@ -937,7 +937,7 @@ body main #contact .contact-container .contact-contents .contact-sns a {
   text-decoration: none;
   display: flex;
   width: 40vw;
-  height: 60px;
+  height: 50px;
   border-radius: 10px;
 }
 body main #contact .contact-container .contact-contents .contact-sns a:hover {
@@ -945,22 +945,24 @@ body main #contact .contact-container .contact-contents .contact-sns a:hover {
   transition: 0.3s;
 }
 body main #contact .contact-container .contact-contents .contact-sns a img {
-  margin-top: 5px;
   width: 50px;
   height: 50px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 body main #contact .contact-container .contact-contents .contact-sns a p {
-  margin-left: 12px;
+  margin: auto;
   color: #fff;
-  line-height: 60px;
+  line-height: 50px;
 }
 body main #contact .contact-container .contact-contents .contact-sns a:nth-of-type(1) {
   background: #06C755;
 }
 body main #contact .contact-container .contact-contents .contact-sns a:nth-of-type(2) {
   background: #03a9f4;
+}
+body main #contact .contact-container .contact-contents .contact-sns a:nth-of-type(3) {
+  background: #fe0062;
 }
 @media screen and (max-width: 420px) {
   body main #contact .contact-container .contact-contents .contact-sns {
@@ -987,7 +989,6 @@ body main #contact .contact-container .contact-contents .remarks-wrapper {
   }
   body main #contact .contact-container .contact-contents .contact-sns {
     padding-top: 60px;
-    width: 500px;
     margin: 0 auto;
     gap: 100px;
   }
