@@ -225,13 +225,14 @@ body #menu ul li a:hover {
 body #menu .menu-sns {
   display: flex;
   gap: 38px;
-  width: 100px;
+  width: 166px;
   margin: 0 auto;
   margin-top: 46px;
 }
 body #menu .menu-sns a img {
   width: 30px;
   height: 30px;
+  border-radius: 20%;
 }
 body #menu .menu-sns a:hover {
   opacity: 0.6;
